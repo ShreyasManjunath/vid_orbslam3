@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+
+	<arg name="vocabulary_path" default="$(find vid_orbslam3)/Vocabulary/ORBvoc.txt"/>
+	<arg name="settings_path" default="$(find vid_orbslam3)/settings/dji_main_camera.yaml"/>
+	
+	<node pkg="vid_orbslam3" type="vid_orbslam3" name="vid_orbslam3_node" output="screen">
+	
+		<param name="vocabulary_path" value="$(arg vocabulary_path)"/>
+		<param name="settings_path" value="$(arg settings_path)"/>	
+
+	</node>
+
+
+</launch>

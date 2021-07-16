@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+ <!--<node pkg="tf" type="static_transform_publisher" name="main_cam_broadcaster" args="0 0 0.4 -0.5 0.5 -0.5 0.5 map main_camera 100" />-->
+<node pkg="vid_orbslam3" type="drone_body_pose_publisher.py" name="pose_publisher" output="screen"/>
+</launch>

@@ -1,0 +1,2 @@
+float64 timestamp_slam
+geometry_msgs/PoseStamped Keyframe

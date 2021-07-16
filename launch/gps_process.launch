@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="gps_topic" default="/dji_osdk_ros/gps_position"/>
+	
+	<node pkg="vid_orbslam3" type="gps_process" name="GPS_node" output="screen">
+	
+		<param name="gps_topic" value="$(arg gps_topic)"/>	
+
+	</node>
+
+
+</launch>
