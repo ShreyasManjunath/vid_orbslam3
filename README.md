@@ -1,4 +1,6 @@
 # vid_orbslam3 package
+<i>Oct 2020 to March 2021</i> <br/>
+<i>Author: Shreyas Manjunath</i><br/> 
 The vid_orbslam3 package provides Keyframe graph publishing using ORBSLAM3 and geo-referencing fuctionality.
 
 ## Pre-requirements
